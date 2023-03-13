@@ -1,0 +1,44 @@
+.contenedor-menu {
+    text-align: center; /* Centra horizontalmente el contenido */
+  
+  }
+  
+.menu {
+    display: inline-block; /* Hace que el menú se muestre en línea */
+  }
+  
+  
+li {
+    display: inline-block; /* Hace que los elementos de la lista estén uno al lado del otro */
+    padding: 20px; 
+    border-right: 3px solid black;
+    cursor: pointer;
+    list-style: none;
+    margin: 5px;
+    background-color: gray;
+    border-radius:5px;
+    font-size: 0,9em;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.vertical{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.dos{
+    display: inline-block; /* Hace que los elementos de la lista estén uno al lado del otro */
+    padding: 20px; 
+    border-right: 3px solid black;
+    cursor: pointer;
+    list-style: none;
+    margin: 5px;
+    background-color: gray;
+    border-radius:5px;
+    font-size: 0,9em;
+
+}
