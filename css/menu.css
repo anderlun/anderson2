@@ -17,6 +17,16 @@ body{
     background-color: rgb(53, 37, 202);
 }
 
+.menu li {
+    position: relative;
+  }
+  
+ 
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
   
 li {
     float: left;/* Hace que los elementos de la lista estén uno al lado del otro */
