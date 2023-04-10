@@ -38,8 +38,10 @@
     margin-top: 30px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: inline-block;
+
     
 }
+
 .texto-p{
     font-size: 1.2em;
     margin: 50px 50px;
@@ -69,8 +71,8 @@
         margin: 0 auto;
         background-color: burlywood;
         border-bottom: 2px solid white;
-        height: 70vh;
-        width: 500px;
+        height: 60vh;
+        width: 100%;
         text-align: center;
         
     }
