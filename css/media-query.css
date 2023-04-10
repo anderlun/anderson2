@@ -9,10 +9,13 @@
     list-style: none;
     padding: 0;
     border-bottom: 1px solid rgb(64,64,64);
-    margin:0 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     box-shadow: 0 0 10px black;
     font-weight: bold;
+    border-bottom: 5px solid brown ;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -64,10 +67,10 @@
     .main-menu{
         box-shadow: 0 0px;
         margin: 0 auto;
-        background-color: none;
+        background-color: burlywood;
         border-bottom: 2px solid white;
-        height: 60vh;
-        width: 300px;
+        height: 70vh;
+        width: 500px;
         text-align: center;
         
     }
