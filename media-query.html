@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Query</title>
-    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/media-query.css"> <!-- Cambié "meda-query" a "media-query" en la ruta del archivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Cambié la ruta de la biblioteca Font Awesome a la versión 5 -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');    
+            });
+        });
+    </script>
+    <title>Media-Query</title>
 </head>
 <body>
-    <nav class="main-menu"> 
-        <label id="menuHamburguer">&#9776</label>   
-        <label class="menu-hamburguer"></label>
-        <ul id="mainMenu" class="main-menu menu-media-hidden">
-            <li class="item-menu">Inicios</li>
-            <li class="item-menu">Productos</li>
-            <li class="item-menu">Contactenos</li>
-            <li class="item-menu">Partners</li>
-            <li class="item-menu">Galerías</li>
+    <nav>
+        <label class="logo">Responsive</label>
+        <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">PRODUCTOS</a></li>
+            <li><a href="#">CONTACTENOS</a></li>
+            <li><a href="#">PARTNERS</a></li>
+            <li><a href="#">GALERIAS</a></li>
         </ul>
-
-        
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
     </nav>
-    <div class="text-box"></div>
-    <script src="js/script.js"></script>
-    <p class="texto-p">Lorem ipsum dolors sit amet consectetfur adipisicing elit. Sit vitae eveniet eligendi corrupti corporis molestiae beatae nisi voluptatibus? Perspiciatis, sequi. Voluptates omnis veniam, esse ex atque itaque iusto tempore numquam facere magnam fugiat, nostrum velit hic dignissimos doloribus expedita enim. Molestias doloribus cupiditate consectetur optio mollitia, unde fugit architecto! Laboriosam, atque odio voluptatum dolorum perspiciatis, suscipit enim quam provident ipsum sit similique optio quae possimus odit doloribus fuga fugiat, molestiae expedita voluptas asperiores in! Minus repudiandae mollitia voluptates. Explicabo, minima culpa omnis ducimus veritatis dolorem corrupti dolorum facere in provident facilis neque sequi doloribus dicta, corporis dolores laboriosam, esse cupiditate vel animi! Ex provident ducimus veritatis fuga saepe, placeat iste repellendus quaerat nesciunt dolor magni iusto adipisci iure atque illo excepturi laudantium quasi repudiandae alias distinctio magnam ad id odio. Nobis non ducimus quis, eaque possimus optio? Iste perferendis ipsa et illum culpa nihil ipsam beatae in quo voluptates at tempora nobis, eos soluta qui, ducimus porro ex corporis officia? Necessitatibus, non! Provident dolorum nesciunt quasi quia. Minima culpa dolorum veritatis sequi, vel illo, quas cumque in ut est explicabo labore quam sint consequatur esse deleniti voluptatem? Fugiat, beatae vel. Soluta tempore maxime culpa quod incidunt, labore a ullam! Itaque harum minima eius eaque hic inventore rem maxime quod voluptatum, debitis perspiciatis ut excepturi! Perspiciatis iure illo magnam accusamus ipsa corrupti. Dicta distinctio quod ex dignissimos deserunt recusandae quisquam sed. Quo esse animi provident iste libero. Id dolor excepturi ad nobis commodi velit delectus in ducimus alias nihil possimus perspiciatis veniam sit odio corporis consequuntur doloremque quis suscipit, maxime, aperiam inventore error. Sapiente, repellendus iure ab soluta natus quis necessitatibus magni quisquam quos ipsa corrupti architecto voluptatibus sed ut, earum unde. Quas voluptatum corrupti laudantium dolorum sit qui explicabo, quod hic quia impedit id repellat provident ut veni  am, maxime deleniti.</p>
-
-
-    
+    <section>
+        
+    </section>
 </body>
 </html>
