@@ -20,11 +20,18 @@ del nav tendran ese estilo*/
 /*todos los menus hijos de nav tienen posicionamiento absoluto*/
 nav ul{/*esto son los menus*/
     width:100%;
-    background-color: black;
+    background-color: rgb(31, 27, 27);
     list-style: none;
     color: white;
     position: absolute; /*rompemos el flujo*/
 
+}
+.logo2{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%; 
+    width: 100%; 
 }
 
 nav ul li{
@@ -71,5 +78,18 @@ nav ul ul ul{
     left:100%;
     top:0;
 }
+
+body, html {  
+    height: 100%; /* Establece la altura del cuerpo y el html al 100% */
+}
+
+body{
+    background-image: url(../images/logo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
 
 /* */
