@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-principal {
+    background-image: url(../images/maicra.jpg);
+    width: 100%;
+    height: 100vh;
+   /* background-size: auto; deja los tamaños iguales */
+    /*background-size: cover; cubre toda la pantalla  */
+    background-size: contain; /*se ve la imagen completa como es */
+    background-size: cover;/*aparece la imagen completa en el html pero no aparece todo el contenido para eso se hace un bacrground-position:center*/
+    background-position:center; /*equilibra la imagen */
+    z-index: 5;
+    position: fixed;
+    
+    
+   
+}
+
+.form-box{
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.form{
+    width: 450px;
+    height: 500px;
+    opacity: 0.7;   
+    background-color: rgb(187, 187, 167);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.user-i-box{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;/* el posicionamiento relativo  */
+    top:-80px;
+    left: 140px;
+
+}
+
+.user-i-style{
+   color: whitesmoke;
+   font-size: 100px;
+
+}
+
+.centrar{
+    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(31, 47, 187);
+    cursor: pointer;
+}
+
+.sesion{
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(17, 16, 16);
+    background-color: rgb(2, 2, 2);
+    padding: 10px 20px;
+    }
+.input[type="text"]{
+    border:0;
+    background-color: transparent;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+}
+
+.input[type="text"]:focus{
+  outline: none;
+}
+
+.input-box{
+    width:90%;
+
+}
