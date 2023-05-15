@@ -20,6 +20,8 @@ body{
 h2{  
     margin-top: 50px; /* Aquí se establece el margen superior */
     text-align: center;
+    font-size: 30px;
+    
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -35,6 +37,8 @@ body{
     align-items: center;
 
 }
+
+
 
 .box-flex1{
    height: 200px;
