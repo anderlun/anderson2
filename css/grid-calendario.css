@@ -19,7 +19,7 @@ h2{
 
 .box-6{ /* esta  es sisisisi la que sirve para el calendario */
     display: grid;
-    width:1500px;   
+    width:80%;   
     height: 500px;
     color: rgb(0, 0, 0);
     font-size: 1.3em;
@@ -27,22 +27,43 @@ h2{
     border:3px solid black;
     cursor: pointer;
     margin: 50px auto;
-    grid-template-columns: repeat(7, 1fr); /* 4 columnas*/
+    grid-template-columns: repeat(7, minmax(50px,auto)); /* 4 columnas*/
 }
 /* va pegada con esta la box-6 */
 
 .style-box{
+    background-color:rgb(252, 204, 251) ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 3px 3px 3px rgb(61, 61, 242);
+    padding-left: 5px;
+    padding-top: 9px;
+
+}
+
+.style-box2{
     background-color:dodgerblue ;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 3px 3px 3px rgb(61, 61, 242);
+    
+}
+.text {
+    margin-top: 5px; /* Ajusta este valor según tus necesidades */
+  }
 
+.mini-box1{
+    background-color: orange;
 
 }
 
+.mini-box2{
+    background-color: rgb(207, 20, 10);
+
+}
 .mini-box{
-    background-color: orange;
     grid-column-start: 2;
    
 }
