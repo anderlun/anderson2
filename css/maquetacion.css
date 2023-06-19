@@ -6,10 +6,18 @@
 nav{
     height: 80px;
 }
+
+.img-articulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .main-img-box{
     width: 100%;
     height: 500px;
-    background-color: cornflowerblue;
+    background-color:darkcyan;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +88,7 @@ nav{
   
   @media only screen and (max-width: 1350px) {
     .articulo-box {
-      gap: 10px;
+      gap: 30px;
       grid-template:
         "empty-izq articulo1 articulo2 articulo3 empty-der" auto
         "empty-izq articulo4 articulo5 articulo6 empty-der" auto /
